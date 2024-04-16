@@ -4,6 +4,7 @@ function init()
 	m.content_select_screen = m.top.findNode("content_select_screen")
 	m.details_screen = m.top.findNode("details_screen")
 	m.videoplayer = m.top.findNode("videoplayer")
+	m.error_dialog = m.top.findNode("error_dialog")
 	initializeVideoPlayer()
 
 	m.content_select_screen.observeField("content_selected", "onContentSelected")
@@ -45,6 +46,8 @@ sub onPlayButtonPressed(obj)
 	m.details_screen.visible = false
 	m.videoplayer.visible = true
 	m.videoplayer.setFocus(true)
+	m.videoplayer.content = m.details_screen.content
+	m.videoplayer.control = "play"
 end sub
 
 

@@ -14,7 +14,7 @@
       id="details_screen"
       visible="false"
       translation="[0,0]" />
-    <Video
+     <Video
       id="videoplayer"
       visible="false"
       translation="[0,0]"

@@ -13,7 +13,8 @@
       itemSpacing="[20,20]"
       caption1NumLines="1"
       numColumns="2"
-      numRows="5">
+      numRows="5"
+      horizAlign = "center">
     </PosterGrid>
   </children>
 </component>

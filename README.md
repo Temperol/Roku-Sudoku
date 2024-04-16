@@ -1,1 +1,1 @@
-# Group-2-Roku-App
+# Roku Sudoku: Group 2's Roku App

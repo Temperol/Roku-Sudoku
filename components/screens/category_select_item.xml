@@ -9,8 +9,8 @@
   <children >
     <Poster 
       id = "itemPoster" 
-      translation = "[ 10, 10 ]" 
-      width = "1997" 
+      translation = "[10, 10]" 
+      width = "1997"
       height = "1123" 
       scaleRotateCenter = "[ 256.0, 144.0 ]" >
     </Poster>
