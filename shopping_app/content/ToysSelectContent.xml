@@ -1,6 +1,6 @@
 <Content>
-     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Toys 1" url = "http://10.0.0.167:8080/videos/placeholder.mp4"  x="0" y="0"/>
-     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Toys 2" url = "http://10.0.0.167:8080/videos/placeholder.mp4" x="0" y="1"/>
-     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Toys 3" url = "http://10.0.0.167:8080/videos/placeholder.mp4" x="1" y="0"/>
-     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Toys 4" url = "http://10.0.0.167:8080/videos/placeholder.mp4" x="1" y="1"/>
+     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Toys 1" url = "http://10.0.0.167:8080/videos/placeholder.mp4" shortdescriptionline2 = "This is the video for Toys 1" streamformat = "mp4"/>
+     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Toys 2" url = "http://10.0.0.167:8080/videos/placeholder.mp4" shortdescriptionline2 = "This is the video for Toys 2" streamformat = "mp4" />
+     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Toys 3" url = "http://10.0.0.167:8080/videos/placeholder.mp4" shortdescriptionline2 = "This is the video for Toys 3" streamformat = "mp4" />
+     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Toys 4" url = "http://10.0.0.167:8080/videos/placeholder.mp4" shortdescriptionline2 = "This is the video for Toys 4" streamformat = "mp4" />
 </Content>
