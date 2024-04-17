@@ -1,0 +1,6 @@
+<Content>
+     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Clothes 1" url = "http://10.0.0.167:8080/videos/placeholder.mp4" shortdescriptionline2 = "This is the video for Clothes 1" streamformat = "hls"/>
+     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Clothes 2" url = "http://10.0.0.167:8080/videos/placeholder.mp4" shortdescriptionline2 = "This is the video for Clothes 2" streamformat = "hls" />
+     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Clothes 3" url = "http://10.0.0.167:8080/videos/placeholder.mp4" shortdescriptionline2 = "This is the video for Clothes 3" streamformat = "hls" />
+     <item hdgridposterurl = "http://10.0.0.167:8080/images/thumbnail-placeholder.jpg" shortdescriptionline1 = "Clothes 4" url = "http://10.0.0.167:8080/videos/placeholder.mp4" shortdescriptionline2 = "This is the video for Clothes 4" streamformat = "hls" />
+</Content>
