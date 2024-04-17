@@ -10,6 +10,10 @@
 		    type="int"
 		    alwaysnotify="true"
 		    alias="play_button.buttonSelected" />
+    <field id="buy_button_pressed"
+		    type="int"
+		    alwaysnotify="true"
+		    alias="buy_button.buttonSelected" />
 	</interface>
 	<script type="text/brightscript" uri="pkg:/components/screens/details_screen.brs" />
 	<children>
@@ -23,6 +27,10 @@
       id="play_button"
       text="PLAY"
       translation="[200, 600]" />
+    <Button
+      id="buy_button"
+      text="BUY"
+      translation="[200, 700]" />
     <Label
       id="title"
       font="font:LargeBoldSystemFont"

@@ -5,11 +5,13 @@ function init()
 	m.details_screen = m.top.findNode("details_screen")
 	m.videoplayer = m.top.findNode("videoplayer")
 	m.error_dialog = m.top.findNode("error_dialog")
+	m.scan_poster = m.top.findNode("scan_poster")
 	initializeVideoPlayer()
 
 	m.content_select_screen.observeField("content_selected", "onContentSelected")
 	m.category_select_screen.observeField("category_selected", "onCategorySelected") 
 	m.details_screen.observeField("play_button_pressed", "onPlayButtonPressed")
+	m.details_screen.observeField("buy_button_pressed", "onBuyButtonPressed")
 
 	m.category_select_screen.visible = true
 	m.category_select_screen.setFocus(true)
@@ -48,6 +50,13 @@ sub onPlayButtonPressed(obj)
 	m.videoplayer.setFocus(true)
 	m.videoplayer.content = m.details_screen.content
 	m.videoplayer.control = "play"
+end sub
+
+sub onBuyButtonPressed(obj)
+	m.details_screen.visible = false
+	m.scan_poster.visible = true
+	m.scan_poster.setFocus(true)
+	? "scan_poster"
 end sub
 
 
