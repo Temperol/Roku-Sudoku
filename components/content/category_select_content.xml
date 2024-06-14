@@ -7,11 +7,11 @@
         title = "Clothes" 
         description = "ClothesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://172.16.16.60:8080/thumbnail-toys.jpg" 
+        HDPosterUrl = "https://cdn.firstcry.com/education/2022/11/06094158/Toy-Names-For-Kids.jpg" 
         title = "Toys" 
         description = "ToysSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://172.16.16.60:8080/thumbnail-games.jpg" 
+        HDPosterUrl = "https://www.barrie.ca/sites/default/files/styles/16_9/public/2023-07/Game-On.jpg?itok=3pRQRUgu" 
         title = "Games"
         description = "GamesSelectContent" />
     </ContentNode>

@@ -22,7 +22,7 @@
       height="1080" />
      <Poster
       id="scan_poster"
-      uri="http://172.16.16.60:8080/thumbnail-placeholder.jpg"
+      uri="https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=2048x2048&w=is&k=20&c=ohMtddTt7BppCvEUNGqJ9FRDyJqAdkzonVQ7KmWbTrg="
       visible="false"
       translation="[0,0]"
       width="1920"
