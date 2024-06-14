@@ -14,6 +14,10 @@
         HDPosterUrl = "https://www.barrie.ca/sites/default/files/styles/16_9/public/2023-07/Game-On.jpg?itok=3pRQRUgu" 
         title = "Games"
         description = "GamesSelectContent" />
+      <ContentNode 
+        HDPosterUrl = "https://qph.cf2.quoracdn.net/main-qimg-0008f7febf8957248117a8c76e7af45d-lq" 
+        title = "Electronics" 
+        description = "ElectronicsSelectContent" />
     </ContentNode>
   </children>
 </component>
