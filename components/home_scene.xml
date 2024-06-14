@@ -22,7 +22,7 @@
       height="1080" />
      <Poster
       id="scan_poster"
-      uri="http://172.16.16.60/thumbnail-placeholder.jpg"
+      uri="http://172.16.16.60:8080/thumbnail-placeholder.jpg"
       visible="false"
       translation="[0,0]"
       width="1920"

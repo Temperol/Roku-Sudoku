@@ -3,15 +3,15 @@
   <children >
     <ContentNode title = "" >
       <ContentNode 
-        HDPosterUrl = "http://172.16.16.60/thumbnail-clothes.jpg" 
+        HDPosterUrl = "http://172.16.16.60:8080/thumbnail-clothes.jpg" 
         title = "Clothes" 
         description = "ClothesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://172.16.16.60/thumbnail-toys.jpg" 
+        HDPosterUrl = "http://172.16.16.60:8080/thumbnail-toys.jpg" 
         title = "Toys" 
         description = "ToysSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://172.16.16.60/thumbnail-games.jpg" 
+        HDPosterUrl = "http://172.16.16.60:8080/thumbnail-games.jpg" 
         title = "Games"
         description = "GamesSelectContent" />
     </ContentNode>
