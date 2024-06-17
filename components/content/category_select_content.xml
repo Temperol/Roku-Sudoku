@@ -19,7 +19,7 @@
         title = "Toys" 
         description = "ToysSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://127.0.0.1:8080/thumbnail-games.jpg" 
+        HDPosterUrl = "https://www.barrie.ca/sites/default/files/styles/16_9/public/2023-07/Game-On.jpg?itok=3pRQRUgu" 
         title = "Games"
         description = "GamesSelectContent" />
       <ContentNode 

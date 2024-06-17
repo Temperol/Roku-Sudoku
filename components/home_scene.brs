@@ -32,8 +32,8 @@ sub onCategorySelected(obj)
 	? "http://172.16.16.60:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
 	m.content_select_screen.contenturi = "http://172.16.16.60:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
 	? m.content_select_screen.contenturi
-	m.category_select_screen.visible=false
-	m.content_select_screen.visible=true
+	m.category_select_screen.visible=true
+	m.content_select_screen.visible=false
 end sub
 
 sub onContentSelected(obj)
