@@ -29,8 +29,8 @@ end sub
 
 sub onCategorySelected(obj)
 	? "onCategorySelected:", m.category_select_screen.getField("selected_category_content")
-	? "https://as2.ftcdn.net/v2/jpg/06/98/33/21/1000_F_698332141_AKWcApTUs5Jm7ZMDoMZ8u9s64Di1A6Bx.jpg" + m.category_select_screen.getField("selected_category_content") + ".xml"
-	m.content_select_screen.contenturi = "https://as2.ftcdn.net/v2/jpg/06/98/33/21/1000_F_698332141_AKWcApTUs5Jm7ZMDoMZ8u9s64Di1A6Bx.jpg" + m.category_select_screen.getField("selected_category_content") + ".xml"
+	? "http://172.16.16.60:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
+	m.content_select_screen.contenturi = "http://172.16.16.60:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
 	? m.content_select_screen.contenturi
 	m.category_select_screen.visible=false
 	m.content_select_screen.visible=true
