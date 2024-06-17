@@ -4,31 +4,38 @@
     <ContentNode title = "" >
       <ContentNode 
         HDPosterUrl = "https://www.commandservice.com/sites/default/files/styles/news_720/public/Home-Appliances.jpg?itok=pT8JaqQd" 
-        title = <font color="db9f11">"Appliances"<font>
+        title = "Appliances"
+        font.color="#ffffff"
         description = "AppliancesSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://kseibi.com/img/h1ab70d38c54e4deeb28_BfR9E.jpg" 
         title = "Tools and Hardware" 
+        font.color="#ffffff"
         description = "ToolsAndHardwareSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://www.rd.com/wp-content/uploads/2022/08/GettyImages-1395657872-e1660072866664.jpg?fit=700%2C1024" 
         title = "Clothes" 
+        font.color="#ffffff"
         description = "ClothesSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://cdn.firstcry.com/education/2022/11/06094158/Toy-Names-For-Kids.jpg" 
         title = "Toys" 
+        font.color="#ffffff"
         description = "ToysSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://www.barrie.ca/sites/default/files/styles/16_9/public/2023-07/Game-On.jpg?itok=3pRQRUgu" 
         title = "Games"
+        font.color="#ffffff"
         description = "GamesSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://qph.cf2.quoracdn.net/main-qimg-0008f7febf8957248117a8c76e7af45d-lq" 
         title = "Electronics" 
+        font.color="#ffffff"
         description = "ElectronicsSelectContent" />
       <ContentNode
         HDPosterUrl = "https://dressbarn.com/cdn/shop/articles/learning-the-different-types-of-accessories-dressbarn-105638.jpg?v=1711148381" 
         title = "Accessories"
+        font.color="#ffffff"
         description = "AccessoriesSelectContent" />
     </ContentNode>
   </children>
