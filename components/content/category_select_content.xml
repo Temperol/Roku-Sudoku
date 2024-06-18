@@ -13,7 +13,7 @@
         font.color="#ffffff"
         description = "ToolsAndHardwareSelectContent" />
       <ContentNode 
-        HDPosterUrl = "https://www.rd.com/wp-content/uploads/2022/08/GettyImages-1395657872-e1660072866664.jpg?fit=700%2C1024" 
+        HDPosterUrl = "http://127.0.0.1:8080/thumbnail-clothes.jpg" 
         title = "Clothes" 
         font.color="#ffffff"
         description = "ClothesSelectContent" />
