@@ -5,17 +5,17 @@
       <ContentNode 
         HDPosterUrl = "https://www.commandservice.com/sites/default/files/styles/news_720/public/Home-Appliances.jpg?itok=pT8JaqQd" 
         title = "Appliances"
-        font.color="#ffffff"
+        color="#ffffff"
         description = "AppliancesSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://kseibi.com/img/h1ab70d38c54e4deeb28_BfR9E.jpg" 
         title = "Tools and Hardware" 
-        font.color="#ffffff"
+        color="#ffffff"
         description = "ToolsAndHardwareSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://127.0.0.1:8080/thumbnail-clothes.jpg" 
+        HDPosterUrl = "https://www.rd.com/wp-content/uploads/2022/08/GettyImages-1395657872-e1660072866664.jpg?fit=700%2C1024" 
         title = "Clothes" 
-        font.color="#ffffff"
+        color="#ffffff"
         description = "ClothesSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://cdn.firstcry.com/education/2022/11/06094158/Toy-Names-For-Kids.jpg" 
