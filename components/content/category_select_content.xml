@@ -3,12 +3,12 @@
   <children >
     <ContentNode title = "" >
       <ContentNode 
-        HDPosterUrl = "https://www.commandservice.com/sites/default/files/styles/news_720/public/Home-Appliances.jpg?itok=pT8JaqQd" 
+        HDPosterUrl = "pkg:/images/4.png" 
         title = "Appliances"
         color="#ffffff"
         description = "AppliancesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "https://kseibi.com/img/h1ab70d38c54e4deeb28_BfR9E.jpg" 
+        HDPosterUrl = "pkg:/images/3.png" 
         title = "Tools and Hardware" 
         color="#ffffff"
         description = "ToolsAndHardwareSelectContent" />
