@@ -4,11 +4,9 @@
     <ContentNode title = "" >
       <ContentNode 
         HDPosterUrl = "pkg:/images/4.png" 
-        color="#ffffff"
         description = "AppliancesSelectContent" />
       <ContentNode 
         HDPosterUrl = "pkg:/images/3.png" 
-        color="#ffffff"
         description = "ToolsAndHardwareSelectContent" />
       <ContentNode 
         HDPosterUrl = "pkg:/images/7.png" 
