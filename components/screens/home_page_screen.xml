@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component name = "HomeScene" extends = "Scene" >
+<component name = "home_page_screen" extends = "Group" >
 <script type="text/brightscript" uri="pkg:/components/screens/home_page_screen.brs"/>
 <children>
     <Poster
       id="background"
       uri="pkg:/images/logo_full.png"
-      width="1920"
-      height="1080"
+      width="1000"
+      height="1200"
       translation="[0, 0]" 
     />
 

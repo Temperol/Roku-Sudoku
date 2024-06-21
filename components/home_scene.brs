@@ -1,7 +1,7 @@
 function init()
 	? "[home_scene] init"
-	m.category_select_screen = m.top.findNode("category_select_screen")
 	m.home_page_screen = m.top.findNode("home_page_screen")
+	m.category_select_screen = m.top.findNode("category_select_screen")
 	m.content_select_screen = m.top.findNode("content_select_screen")
 	m.details_screen = m.top.findNode("details_screen")
 	m.videoplayer = m.top.findNode("videoplayer")
