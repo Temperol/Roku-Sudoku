@@ -1,6 +1,7 @@
 function init()
 	? "[home_scene] init"
 	m.category_select_screen = m.top.findNode("category_select_screen")
+	m.home_page_screen = m.top.findNode("home_page_screen")
 	m.content_select_screen = m.top.findNode("content_select_screen")
 	m.details_screen = m.top.findNode("details_screen")
 	m.videoplayer = m.top.findNode("videoplayer")
@@ -9,12 +10,13 @@ function init()
 	initializeVideoPlayer()
 
 	m.content_select_screen.observeField("content_selected", "onContentSelected")
+	m.home_page_screen.observeField("home_page_screen", "onContentSelected")
 	m.category_select_screen.observeField("category_selected", "onCategorySelected") 
 	m.details_screen.observeField("play_button_pressed", "onPlayButtonPressed")
 	m.details_screen.observeField("buy_button_pressed", "onBuyButtonPressed")
 
-	m.category_select_screen.visible = true
-	m.category_select_screen.setFocus(true)
+	m.home_page_screen.visible = true
+	m.home_page_screen.setFocus(true)
 end function
 
 sub initializeVideoPlayer()
@@ -28,12 +30,9 @@ sub initializeVideoPlayer()
 end sub
 
 sub onCategorySelected(obj)
-	? "onCategorySelected:", m.category_select_screen.getField("selected_category_content")
-	? "http://127.0.0.1:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
-	m.content_select_screen.contenturi = "http://127.0.0.1:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
-	? m.content_select_screen.contenturi
-	m.category_select_screen.visible=false
-	m.content_select_screen.visible=true
+	? "onCategorySelected:", m.home_page_screen.getField("selected_category_content")
+	m.home_page_screen.visible=false
+	m.category_select_screen.visible=true
 end sub
 
 sub onContentSelected(obj)
@@ -87,7 +86,12 @@ function onKeyEvent(key, press) as Boolean
 	? "[home_scene] onKeyEvent", key, press
 	' we must capture the 'true' for press, it comes first (true=down,false=up) to keep the firmware from handling the event
 	if key = "back" and press
-		if m.content_select_screen.visible
+		if m.category_select_screen.visible
+			m.category_select_screen.visible=false
+			m.home_page_screen.visible=true
+			m.home_page_screen.setFocus(true)
+			return true
+		else if m.content_select_screen.visible
 			m.content_select_screen.visible=false
 			m.category_select_screen.visible=true
 			m.category_select_screen.setFocus(true)
