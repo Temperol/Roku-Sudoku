@@ -6,13 +6,13 @@ minor_version=1
 build_version=33  
 
 # Channel Assets
-mm_icon_focus_hd= http://192.168.43.99:8080/home_page_scene.mp4
-mm_icon_focus_sd= http://192.168.43.99:8080/home_page_scene.mp4
+mm_icon_focus_hd= http://192.168.43.99:8080/IconLoadingScreen.gif
+mm_icon_focus_sd= http://192.168.43.99:8080/IconLoadingScreen.gif
 
 # Splash Screen + Loading Screen Artwork
-splash_screen_sd=pkg:/images/logofull.png
-splash_screen_hd=pkg:/images/logofull.png
-splash_screen_fhd=pkg:/images/logofull.png
+splash_screen_sd = http://192.168.43.99:8080/logo_full.png
+splash_screen_hd = http://192.168.43.99:8080/logo_full.png
+splash_screen_fhd = http://192.168.43.99:8080/logo_full.png
 splash_max_time=1
 splash_rsg_optimization=1
 
