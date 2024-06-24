@@ -1,6 +1,5 @@
 function init()
 	? "[home_scene] init"
-	m.home_page_screen = m.top.findNode("home_page_screen")
 	m.category_select_screen = m.top.findNode("category_select_screen")
 	m.content_select_screen = m.top.findNode("content_select_screen")
 	m.details_screen = m.top.findNode("details_screen")
@@ -9,14 +8,13 @@ function init()
 	m.scan_poster = m.top.findNode("scan_poster")
 	initializeVideoPlayer()
 
-	m.home_page_screen.observeField("home_page_screen", "onHomepageSelected")
 	m.content_select_screen.observeField("content_selected", "onContentSelected")
 	m.category_select_screen.observeField("category_selected", "onCategorySelected") 
 	m.details_screen.observeField("play_button_pressed", "onPlayButtonPressed")
 	m.details_screen.observeField("buy_button_pressed", "onBuyButtonPressed")
 
-	m.home_page_screen.visible = true
-	m.home_page_screen.setFocus(true)
+	m.category_select_screen.visible = true
+	m.category_select_screen.setFocus(true)
 end function
 
 sub initializeVideoPlayer()
@@ -27,11 +25,6 @@ sub initializeVideoPlayer()
 	m.videoplayer.notificationInterval=1
 	m.videoplayer.observeFieldScoped("position", "onPlayerPositionChanged")
 	m.videoplayer.observeFieldScoped("state", "onPlayerStateChanged")
-end sub
-
-sub onHomepageSelected(obj)
-	m.home_page_screen.visible=false
-	m.category_select_screen.visible=true
 end sub
 
 sub onCategorySelected(obj)
@@ -94,12 +87,7 @@ function onKeyEvent(key, press) as Boolean
 	? "[home_scene] onKeyEvent", key, press
 	' we must capture the 'true' for press, it comes first (true=down,false=up) to keep the firmware from handling the event
 	if key = "back" and press
-		if m.category_select_screen.visible
-			m.category_select_screen.visible=false
-			m.home_page_screen.visible=true
-			m.home_page_screen.setFocus(true)
-			return true
-		else if m.content_select_screen.visible
+		if m.content_select_screen.visible
 			m.content_select_screen.visible=false
 			m.category_select_screen.visible=true
 			m.category_select_screen.setFocus(true)
