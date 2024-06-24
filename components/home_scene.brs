@@ -12,7 +12,6 @@ function init()
 	m.category_select_screen.observeField("category_selected", "onCategorySelected") 
 	m.details_screen.observeField("play_button_pressed", "onPlayButtonPressed")
 	m.details_screen.observeField("buy_button_pressed", "onBuyButtonPressed")
-
 	m.category_select_screen.visible = true
 	m.category_select_screen.setFocus(true)
 end function
@@ -29,8 +28,8 @@ end sub
 
 sub onCategorySelected(obj)
 	? "onCategorySelected:", m.category_select_screen.getField("selected_category_content")
-	? "http://127.0.0.1:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
-	m.content_select_screen.contenturi = "http://127.0.0.1:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
+	? "http://10.61.130.168:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
+	m.content_select_screen.contenturi = "http://10.61.130.168:8080/" + m.category_select_screen.getField("selected_category_content") + ".xml"
 	? m.content_select_screen.contenturi
 	m.category_select_screen.visible=false
 	m.content_select_screen.visible=true

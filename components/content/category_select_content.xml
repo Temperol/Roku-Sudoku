@@ -3,29 +3,29 @@
   <children >
     <ContentNode title = "" >
       <ContentNode 
-        HDPosterUrl = "pkg:/images/4.png" 
+        HDPosterUrl = "http://10.61.130.168:8080/4.png" 
         description = "AppliancesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "pkg:/images/3.png" 
+        HDPosterUrl = "http://10.61.130.168:8080/3.png" 
         description = "ToolsAndHardwareSelectContent" />
       <ContentNode 
-        HDPosterUrl = "pkg:/images/7.png" 
+        HDPosterUrl = "http://10.61.130.168:8080/7.png" 
         color="#ffffff"
         description = "ClothesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "pkg:/images/5.png"
+        HDPosterUrl = "http://10.61.130.168:8080/5.png"
         font.color="#ffffff"
         description = "ToysSelectContent" />
       <ContentNode 
-        HDPosterUrl = "pkg:/images/6.png" 
+        HDPosterUrl = "http://10.61.130.168:8080/6.png" 
         font.color="#ffffff"
         description = "GamesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "pkg:/images/9.png" 
+        HDPosterUrl = "http://10.61.130.168:8080/9.png" 
         font.color="#ffffff"
         description = "ElectronicsSelectContent" />
       <ContentNode
-        HDPosterUrl = "pkg:/images/8.png" 
+        HDPosterUrl = "http://10.61.130.168:8080/8.png"
         font.color="#ffffff"
         description = "AccessoriesSelectContent" />
     </ContentNode>
