@@ -2,6 +2,10 @@
 <component name="home_scene" extends="Scene">
   <script type="text/brightscript" uri="pkg:/components/home_scene.brs" />
   <children>
+    <content_select_screen
+      id="home_page_screen"
+      visible="false"
+      translation="[0,0]" />
     <category_select_screen
       id="category_select_screen"
       visible="false"

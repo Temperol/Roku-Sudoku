@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version = "1.0" encoding="utf-8" ?>
 <component name = "home_page_screen" extends = "Group" >
 <script type="text/brightscript" uri="pkg:/components/screens/home_page_screen.brs"/>
 <children>
     <Poster
       id="background"
-      uri="pkg:/images/logo_full.png"
+      uri="pkg:/images/3.png"
       width="1000"
       height="1200"
       translation="[0, 0]" 

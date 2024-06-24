@@ -3,8 +3,8 @@
   <script type="text/brightscript" uri="pkg:/components/screens/category_select_item.brs" />
   <interface> 
     <field id = "itemContent" type = "node" onChange = "showcontent"/>
-    <field id = "focusPercent" type = "float" onChange = "showfocus"/> 
-    <field id = "rowFocusPercent" type = "float" onChange = "showrowfocus"/>
+    <field id = "focusPercent" type = "float" onChange = "showcontent"/> 
+    <field id = "rowFocusPercent" type = "float" onChange = "showcontent"/>
   </interface>
   <children >
     <Poster 
