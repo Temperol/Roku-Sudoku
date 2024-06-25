@@ -30,7 +30,7 @@ end sub
 sub onCategorySelected(obj)
 	m.category_select_screen.visible=false
 	m.content_select_screen.visible=true
-	m.content_select_screen.visible.setFocus(true)
+	m.content_select_screen.setFocus(true)
 end sub
 
 sub onContentSelected(obj)
