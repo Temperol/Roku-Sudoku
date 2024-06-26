@@ -13,8 +13,7 @@
       itemSpacing="[20,20]"
       caption1NumLines="1"
       numColumns="3"
-      numRows="2"
-      horizAlign = "center">
+      numRows="2">
       <ContentNode role = "content" >
         <ContentNode hdgridposterurl="https://as2.ftcdn.net/v2/jpg/06/98/33/21/1000_F_698332141_AKWcApTUs5Jm7ZMDoMZ8u9s64Di1A6Bx.jpg" focusable="true"/>
         <ContentNode hdgridposterurl="https://as2.ftcdn.net/v2/jpg/06/98/33/21/1000_F_698332141_AKWcApTUs5Jm7ZMDoMZ8u9s64Di1A6Bx.jpg" focusable="true"/>

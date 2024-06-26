@@ -10,15 +10,12 @@
         description = "ToolsAndHardwareSelectContent" />
       <ContentNode 
         HDPosterUrl = "http://192.168.43.99:8080/7.png" 
-        color="#ffffff"
         description = "ClothesSelectContent" />
       <ContentNode 
         HDPosterUrl = "http://192.168.43.99:8080/5.png"
-        font.color="#ffffff"
         description = "ToysSelectContent" />
       <ContentNode 
         HDPosterUrl = "http://192.168.43.99:8080/6.png" 
-        font.color="#ffffff"
         description = "GamesSelectContent" />
       <ContentNode 
         HDPosterUrl = "http://192.168.43.99:8080/9.png" 
@@ -26,7 +23,6 @@
         description = "ElectronicsSelectContent" />
       <ContentNode
         HDPosterUrl = "http://192.168.43.99:8080/8.png"
-        font.color="#ffffff"
         description = "AccessoriesSelectContent" />
     </ContentNode>
   </children>
