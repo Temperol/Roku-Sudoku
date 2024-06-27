@@ -4,7 +4,6 @@
   <interface>
     <field id="contenturi" type="uri" />
     <field id="content_selected" type="assocarray" alias="ContentPosterGrid.itemSelected"/>
-    <function name = "showGrid"/>
   </interface>
   <children>
     <PosterGrid
