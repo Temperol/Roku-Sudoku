@@ -7,8 +7,8 @@
   </interface>
   <children>
     <PosterGrid
-      scence.backgroundcolor="662D91"
-      scence.backgroundUri=""
+      scene.backgroundcolor="662D91"
+      scene.backgroundUri=""
       id="ContentPosterGrid"
       translation="[130, 160]"
       basePosterSize="[512 ,288]"
