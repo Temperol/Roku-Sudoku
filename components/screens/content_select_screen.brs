@@ -24,6 +24,5 @@ sub showPosterGrid()
     m.content_grid.visible = true
     m.content_grid.setFocus(true)
     ? m.content_grid.visible 
-    ? m.content_select_screen.setFocus(true)
 end sub
 
