@@ -7,7 +7,7 @@
   </interface>
   <children>
     <PosterGrid
-      scene.backgroundcolor="662D91"
+      scene.backgroundcolor="0X662D91"
       scene.backgroundUri=""
       id="ContentPosterGrid"
       translation="[130, 160]"

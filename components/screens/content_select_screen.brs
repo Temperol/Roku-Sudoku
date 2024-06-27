@@ -3,9 +3,6 @@
       m.content_grid = m.top.findNode("ContentPosterGrid")
       m.setContent = createObject("roSGNode", "SetContent")
       m.top.observeField("visible", "onVisibleChange")
-      m.content_grid.content = m.setContent.content
-      m.content_grid.visible = true
-      m.content_grid.setFocus(true)
  end sub
 
 sub onVisibleChange()
