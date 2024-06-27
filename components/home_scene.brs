@@ -30,6 +30,7 @@ sub onCategorySelected(obj)
 	m.category_select_screen.visible = false
 	m.content_select_screen.visible = true
 	m.content_select_screen.setFocus(true)
+	m.content_select_screen.callFunc("showGrid")
 end sub
 
 sub onContentSelected(obj)

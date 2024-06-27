@@ -4,11 +4,10 @@
   <interface>
     <field id="contenturi" type="uri" />
     <field id="content_selected" type="assocarray" alias="ContentPosterGrid.itemSelected"/>
+    <function name = "showGrid"/>
   </interface>
   <children>
     <PosterGrid
-      scene.backgroundcolor="0X662D91"
-      scene.backgroundUri=""
       id="ContentPosterGrid"
       translation="[130, 160]"
       basePosterSize="[512 ,288]"
