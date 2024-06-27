@@ -13,11 +13,8 @@
       itemSpacing="[20,20]"
       caption1NumLines="1"
       numColumns="3"
-      numRows="2">
+      numRows="1">
       <ContentNode role = "content" >
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>

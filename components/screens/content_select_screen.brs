@@ -5,16 +5,14 @@
       m.top.observeField("visible", "onVisibleChange")
       m.top.backgroundUri=""
       m.top.backgroundcolor="662D91"
-      m.setContent.contenturi = m.top.contenturi
-      m.setContent.control = "RUN"
-      m.content_grid.content = m.setContent.content
-      m.content_grid.visible = true
  end sub
 
 sub onVisibleChange()
   ? "visibleChange"
   if m.top.visible = true then
     ? m.top.contenturi
+    m.setContent.contenturi = m.top.contenturi
+    m.setContent.control = "RUN"
     m.setContent.observeField("content", "showPosterGrid")
   end if
 end sub
@@ -22,6 +20,8 @@ end sub
 sub showPosterGrid()
     ? "showPosterGrid"
     ? m.setContent.content
+    m.content_grid.content = m.setContent.content
+    m.content_grid.visible = true
     m.content_grid.setFocus(true)
     ? m.content_grid.visible 
 end sub
