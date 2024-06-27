@@ -3,7 +3,8 @@
       m.content_grid = m.top.findNode("ContentPosterGrid")
       m.setContent = createObject("roSGNode", "SetContent")
       m.top.observeField("visible", "onVisibleChange")
-      m.top.backgroundcolor="662d91"
+      m.top.backgroundUri=""
+      m.top.backgroundColor="662d91"
  end sub
 
 sub onVisibleChange()
