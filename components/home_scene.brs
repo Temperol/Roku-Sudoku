@@ -29,7 +29,7 @@ end sub
 sub onCategorySelected(obj)
 	m.category_select_screen.visible = false
 	m.top.backgroundUri=""
-	m.top.backgroundColor="0xEB1010FF"
+	m.top.backgroundColor="0x662D91"
 	m.content_select_screen.visible = true
 	m.content_select_screen.setFocus(true)
 end sub

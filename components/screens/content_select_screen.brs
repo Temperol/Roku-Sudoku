@@ -1,7 +1,7 @@
  sub init()
       ? "content"
       'm.top.backgroundUri=""
-      'm.top.backgroundColor="0xEB1010FF"
+      'm.top.backgroundColor="0x662D91"
       m.content_grid = m.top.findNode("ContentPosterGrid")
       m.setContent = createObject("roSGNode", "SetContent")
       m.top.observeField("visible", "onVisibleChange")
