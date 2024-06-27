@@ -23,7 +23,6 @@
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
       </ContentNode>
     </PosterGrid>
-    <Label text ="test"/>
   </children>
 </component>
 
