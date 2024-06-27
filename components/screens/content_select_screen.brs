@@ -4,7 +4,7 @@
       m.setContent = createObject("roSGNode", "SetContent")
       m.top.observeField("visible", "onVisibleChange")
       m.top.backgroundUri=""
-      m.top.backgroundColor="662d91"
+      m.top.backgroundColor="0x662d91"
  end sub
 
 sub onVisibleChange()
