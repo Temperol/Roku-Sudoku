@@ -20,7 +20,6 @@ end sub
 sub showPosterGrid()
     ? "showPosterGrid"
     ? m.setContent.content
-    m.content_grid.content = m.setContent.content
     m.content_grid.visible = true
     m.content_grid.setFocus(true)
     ? m.content_grid.visible 
