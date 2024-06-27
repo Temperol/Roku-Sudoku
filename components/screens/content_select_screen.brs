@@ -25,3 +25,10 @@ sub showPosterGrid()
     m.content_grid.setFocus(true)
     ? m.content_grid.visible 
 end sub
+
+function onKeyEvent(key as string, press as boolean) as boolean
+  if m.top.visible = true then
+    onVisibleChange()
+  end if
+  return true
+end function
