@@ -7,6 +7,7 @@
   </interface>
   <children>
     <PosterGrid
+      color="662D91"
       id="ContentPosterGrid"
       translation="[130, 160]"
       basePosterSize="[512 ,288]"
