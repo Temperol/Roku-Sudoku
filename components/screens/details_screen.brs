@@ -20,7 +20,6 @@ sub OnContentChange(obj)
 	m.title.text = item.shortdescriptionline1
 	m.description.text = item.shortdescriptionline2
 	m.thumbnail.uri = item.HDGRIDPOSTERURL
-	m.scan_poster.uri = item.HDGRIDPOSTERURL
 end sub
 
 function onKeyEvent(key, press) as Boolean
