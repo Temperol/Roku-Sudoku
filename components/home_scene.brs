@@ -29,7 +29,7 @@ end sub
 sub onCategorySelected(obj)
 	m.category_select_screen.visible = false
 	m.top.backgroundUri=""
-	m.top.backgroundColor="0x662D91"
+	m.top.backgroundColor="0x8C52FF"
 	m.content_select_screen.visible = true
 	m.content_select_screen.setFocus(true)
 end sub
@@ -100,6 +100,11 @@ function onKeyEvent(key, press) as Boolean
 			m.details_screen.visible=true
 			m.details_screen.setFocus(true)
 			return true
+		else if m.scan_poster.visible
+            m.scan_poster.visible=false
+            m.details_screen.visible=true
+            m.details_screen.setFocus(true)
+            return true 
 		end if
 	end if
   return false

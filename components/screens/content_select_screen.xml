@@ -13,14 +13,17 @@
       itemSpacing="[20,20]"
       caption1NumLines="1"
       numColumns="3"
-      numRows="2">
+      numRows="3">
       <ContentNode role = "content" >
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/blank.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/SuperJeans.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/BetterSocks.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ShortJeans.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/PuffyJacket.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/smokingBear.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/murica.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/bearShirt.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/dshirt.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/FireShirt.png" focusable="true"/>
       </ContentNode>
     </PosterGrid>
   </children>
