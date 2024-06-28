@@ -21,7 +21,7 @@ sub OnContentChange(obj)
 	m.description.text = item.shortdescriptionline2
 	m.thumbnail.uri = item.HDGRIDPOSTERURL
 end sub
-
+ 
 function onKeyEvent(key, press) as Boolean
 	? "[home_scene] onKeyEvent", key, press
 	if press then

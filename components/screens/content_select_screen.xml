@@ -15,7 +15,7 @@
       numColumns="3"
       numRows="3">
       <ContentNode role = "content" >
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/SuperJeans.png" focusable="true"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/SuperJeans.png" focusable="true"  shortdescriptionline1="Super Jeans"/>
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/BetterSocks.png" focusable="true"/>
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/ShortJeans.png" focusable="true"/>
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/PuffyJacket.png" focusable="true"/>
