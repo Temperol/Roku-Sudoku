@@ -20,7 +20,16 @@ end sub
 sub OnContentChange(obj)
 	item = obj.getData()
 	? item
-	m.thumbnail.uri = item.HDGRIDPOSTERURL
+  m.hdgridposterurl1.contenturi = "http://192.168.43.99:8080/" + item + "/1.png"
+  m.hdgridposterurl2.contenturi = "http://192.168.43.99:8080/" + item + "/2.png"
+  m.hdgridposterurl3.contenturi = "http://192.168.43.99:8080/" + item + "/3.png"
+  m.hdgridposterurl4.contenturi = "http://192.168.43.99:8080/" + item + "/4.png"
+  m.hdgridposterurl5.contenturi = "http://192.168.43.99:8080/" + item + "/5.png"
+  m.hdgridposterurl6.contenturi = "http://192.168.43.99:8080/" + item + "/6.png"
+  m.hdgridposterurl7.contenturi = "http://192.168.43.99:8080/" + item + "/7.png"
+  m.hdgridposterurl8.contenturi = "http://192.168.43.99:8080/" + item + "/8.png"
+  m.hdgridposterurl9.contenturi = "http://192.168.43.99:8080/" + item + "/9.png"
+
 end sub
 
 sub showPosterGrid()

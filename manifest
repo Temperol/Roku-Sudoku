@@ -13,7 +13,7 @@ mm_icon_focus_sd=pkg:/images/logo_full.png
 splash_screen_sd=pkg:/images/IconLoadingScreen.gif
 splash_screen_hd=pkg:/images/IconLoadingScreen.gif
 splash_screen_fhd=pkg:/images/IconLoadingScreen.gif
-splash_max_time=1
+splash_max_time=4
 splash_rsg_optimization=1
 
 # Resolution
