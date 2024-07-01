@@ -16,14 +16,14 @@
       numRows="3">
       <ContentNode role = "content" >
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/SuperJeans.png" focusable="true" shortdescriptionline1="Super Jeans" shortdescriptionline2="Jeans that are not super, but are called that way for marketing"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/BetterSocks.png" focusable="true" shortdescriptionline1="Socks" shortdescriptionline2="Socks"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ShortJeans.png" focusable="true" shortdescriptionline1="Jorts" shortdescriptionline2="Jorts"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/PuffyJacket.png" focusable="true" shortdescriptionline1="Puffy Jacket" shortdescriptionline2="Jacket"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/smokingBear.png" focusable="true" shortdescriptionline1="Smokey Beat T-shirt" shortdescriptionline2="Bear"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/murica.png" focusable="true" shortdescriptionline1="Murica Hoodie" shortdescriptionline2="Murica"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/BetterSocks.png" focusable="true" shortdescriptionline1="Socks" shortdescriptionline2="Socks that are super slick and comfy"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ShortJeans.png" focusable="true" shortdescriptionline1="Jorts" shortdescriptionline2="Jorts, jean + shorts, very stylish, worn by many, good texture"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/PuffyJacket.png" focusable="true" shortdescriptionline1="Puffy Jacket" shortdescriptionline2="Jacket that's very puffy and comfy"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/smokingBear.png" focusable="true" shortdescriptionline1="Smokey Beat T-shirt" shortdescriptionline2="Cozy Bear T-Shirt with a sleek design"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/murica.png" focusable="true" shortdescriptionline1="Murica Hoodie" shortdescriptionline2="RAHHHHHHHHHHHHHHHHHHH CAPITALISM RAHHHHHHHHHHHHHH"/>
         <ContentNode hdgridposterurl="http://192.168.43.99:8080/bearShirt.png" focusable="true" shortdescriptionline1="Bear Shirt" shortdescriptionline2="Bear 2"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/dshirt.png" focusable="true" shortdescriptionline1="Dora shirt" shortdescriptionline2="Shirt"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/FireShirt.png" focusable="true" shortdescriptionline1="Fire Shirt" shortdescriptionline2="Fire Lion"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/dshirt.png" focusable="true" shortdescriptionline1="Dora shirt" shortdescriptionline2="Really cool looking dora shirt"/>
+        <ContentNode hdgridposterurl="http://192.168.43.99:8080/FireShirt.png" focusable="true" shortdescriptionline1="Fire Shirt" shortdescriptionline2="Fire Lion T-Shirt design"/>
       </ContentNode>
     </PosterGrid>
   </children>
