@@ -20,7 +20,7 @@ sub OnContentChange(obj)
 	m.title.text = item.shortdescriptionline1
 	m.description.text = item.shortdescriptionline2
 	m.thumbnail.uri = item.HDGRIDPOSTERURL
-end sub
+end sub 
  
 function onKeyEvent(key, press) as Boolean
 	? "[home_scene] onKeyEvent", key, press
