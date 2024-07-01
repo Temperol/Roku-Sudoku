@@ -30,6 +30,10 @@ sub onCategorySelected(obj)
 	m.category_select_screen.visible = false
 	m.top.backgroundUri=""
 	m.top.backgroundColor="0x8C52FF"
+	? "onCategorySelected:", m.category_select_screen.getField("selected_category_content")
+	? "http://10.0.0.167:8080/content/" + m.category_select_screen.getField("selected_category_content") + ".xml"
+	m.content_select_screen.contenturi = "http://10.0.0.167:8080/content/" + m.category_select_screen.getField("selected_category_content") + ".xml"
+	? m.content_select_screen.contenturi 
 	m.content_select_screen.visible = true
 	m.content_select_screen.setFocus(true)
 end sub
