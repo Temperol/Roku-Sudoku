@@ -11,7 +11,7 @@
       font="font:LargeBoldSystemFont"
       color="0xFFFFFF"
       text="Clothes"
-      translation="[800,500]" />
+      translation="[800,50]" />
     <PosterGrid
       id="ContentPosterGrid"
       translation="[130, 160]"
