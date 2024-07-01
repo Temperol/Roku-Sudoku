@@ -6,6 +6,12 @@
     <field id="content_selected" type="assocarray" alias="ContentPosterGrid.itemSelected"/>
   </interface>
   <children>
+    <Label
+      id="category"
+      font="font:LargeBoldSystemFont"
+      color="0xFFFFFF"
+      text="Clothes"
+      translation="[800,300]" />
     <PosterGrid
       id="ContentPosterGrid"
       translation="[130, 160]"

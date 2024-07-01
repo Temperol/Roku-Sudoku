@@ -17,6 +17,12 @@ sub onVisibleChange()
   end if
 end sub
 
+sub OnContentChange(obj)
+	item = obj.getData()
+	? item
+	m.thumbnail.uri = item.HDGRIDPOSTERURL
+end sub
+
 sub showPosterGrid()
     ? "showPosterGrid"
     m.content_grid.visible = true
