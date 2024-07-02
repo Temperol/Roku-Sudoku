@@ -41,7 +41,7 @@ sub onCategorySelected(obj)
    ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/7.png"
    ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/8.png"
    ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/9.png"
-    ' ? m.hdgridposterurl1.contenturi
+    ? m.hdgridposterurl
 	? m.content_select_screen.contenturi
 	m.content_select_screen.visible = true
 	m.content_select_screen.setFocus(true)
