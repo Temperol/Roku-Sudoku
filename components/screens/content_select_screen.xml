@@ -21,7 +21,7 @@
       numColumns="3"
       numRows="3">
       <ContentNode role = "content" >
-        <ContentNode hdgridposterurl1="" focusable="true" shortdescriptionline1="Super Jeans" shortdescriptionline2="Jeans that are not super, but are called that way for marketing"/>
+        <ContentNode hdgridposterurl1="http://192.168.43.99:8080/ClothesSelectContent/1.png" focusable="true" shortdescriptionline1="Super Jeans" shortdescriptionline2="Jeans that are not super, but are called that way for marketing"/>
         <ContentNode hdgridposterurl2="" focusable="true" shortdescriptionline1="Socks" shortdescriptionline2="Socks that are super slick and comfy"/>
         <ContentNode hdgridposterurl3="" focusable="true" shortdescriptionline1="Jorts" shortdescriptionline2="Jorts, jean + shorts, very stylish, worn by many, good texture"/>
         <ContentNode hdgridposterurl4="" focusable="true" shortdescriptionline1="Puffy Jacket" shortdescriptionline2="Jacket that's very puffy and comfy"/>
