@@ -20,7 +20,6 @@ end sub
 sub OnContentChange(obj)
 	item = obj.getData()
 	? item
-  ? m.hdgridposterurl1.contenturi = "http://192.168.43.99:8080/" + item + "/1.png"
   m.hdgridposterurl1.contenturi = "http://192.168.43.99:8080/" + item + "/1.png"
   m.hdgridposterurl2.contenturi = "http://192.168.43.99:8080/" + item + "/2.png"
   m.hdgridposterurl3.contenturi = "http://192.168.43.99:8080/" + item + "/3.png"
@@ -30,6 +29,7 @@ sub OnContentChange(obj)
   m.hdgridposterurl7.contenturi = "http://192.168.43.99:8080/" + item + "/7.png"
   m.hdgridposterurl8.contenturi = "http://192.168.43.99:8080/" + item + "/8.png"
   m.hdgridposterurl9.contenturi = "http://192.168.43.99:8080/" + item + "/9.png"
+  ? m.hdgridposterurl1.contenturi
 
 end sub
 
