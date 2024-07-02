@@ -31,8 +31,8 @@ sub onCategorySelected(obj)
 	m.top.backgroundUri=""
 	m.top.backgroundColor="0x8C52FF"
 	? "onCategorySelected:", m.category_select_screen.getField("selected_category_content")
-	? "http://10.0.0.167:8080/content/" + m.category_select_screen.getField("selected_category_content") + ".xml"
-	m.content_select_screen.contenturi = "http://10.0.0.167:8080/content/" + m.category_select_screen.getField("selected_category_content") + ".xml"
+	? "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/1.png"
+	m.content_select_screen.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/1.png"
 	'm.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/1.png"
    ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/2.png"
    ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/3.png"
