@@ -1,7 +1,5 @@
  sub init()
       '? "content"
-      'm.top.backgroundUri=""
-      'm.top.backgroundColor="0x662D91"
       m.content_grid = m.top.findNode("ContentPosterGrid")
       m.setContent = createObject("roSGNode", "SetContent")
       m.top.observeField("visible", "onVisibleChange")
@@ -18,8 +16,6 @@ sub onVisibleChange()
 end sub
 
 sub OnContentChange(obj)
-	item = obj.getData()
-	'? item
   'm.hdgridposterurl1.contenturi = "http://192.168.43.99:8080/" + item + "/1.png"
   'm.hdgridposterurl2.contenturi = "http://192.168.43.99:8080/" + item + "/2.png"
   'm.hdgridposterurl3.contenturi = "http://192.168.43.99:8080/" + item + "/3.png"
