@@ -20,17 +20,6 @@
       caption1NumLines="1"
       numColumns="3"
       numRows="3">
-      <ContentNode role = "content" >
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/1.png" focusable="true" shortdescriptionline1="Super Jeans" shortdescriptionline2="Jeans that are not super, but are called that way for marketing"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/2.png" focusable="true" shortdescriptionline1="Socks" shortdescriptionline2="Socks that are super slick and comfy"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/3.png" focusable="true" shortdescriptionline1="Jorts" shortdescriptionline2="Jorts, jean + shorts, very stylish, worn by many, good texture"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/4.png" focusable="true" shortdescriptionline1="Puffy Jacket" shortdescriptionline2="Jacket that's very puffy and comfy"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/5.png" focusable="true" shortdescriptionline1="Smokey Bear T-shirt" shortdescriptionline2="Cozy Bear T-Shirt with a sleek design"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/6.png" focusable="true" shortdescriptionline1="Murica Hoodie" shortdescriptionline2="RAHHHHHHHHHHHHHHHHHHH CAPITALISM RAHHHHHHHHHHHHHH"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/7.png" focusable="true" shortdescriptionline1="Bear Shirt" shortdescriptionline2="Comfy BEAR hoodie that keeps you WARM and COZY"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/8.png" focusable="true" shortdescriptionline1="Dora shirt" shortdescriptionline2="Really cool looking dora shirt"/>
-        <ContentNode hdgridposterurl="http://192.168.43.99:8080/ClothesSelectContent/9.png" focusable="true" shortdescriptionline1="Fire Shirt" shortdescriptionline2="Fire Lion for a fire t-shirt design"/>
-      </ContentNode>
     </PosterGrid>
   </children>
 </component>  

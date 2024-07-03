@@ -30,16 +30,8 @@ sub onCategorySelected(obj)
 	m.category_select_screen.visible = false
 	m.top.backgroundColor="0x8C52FF"
 	? "onCategorySelected:", m.category_select_screen.getField("selected_category_content")
-	? "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/1.png"
-	m.content_select_screen.hdgridposterurl = "http://192.168.43.99:8080/ClothesSelectContent/1.png"
-   ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/2.png"
-   ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/3.png"
-   ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/4.png"
-   ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/5.png"
-   ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/6.png"
-   ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/7.png"
-   ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/8.png"
-   ' m.hdgridposterurl.contenturi = "http://192.168.43.99:8080/" + m.category_select_screen.getField("selected_category_content") + "/9.png"
+	? "http://192.168.43.99:8080/content/" + m.category_select_screen.getField("selected_category_content") + ".xml"
+	m.content_select_screen.contenturi = "http://192.168.43.99:8080/content/" + m.category_select_screen.getField("selected_category_content") + ".xml"
     ? m.content_select_screen.hdgridposterurl
 	m.content_select_screen.visible = true
 	m.content_select_screen.setFocus(true)
