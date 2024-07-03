@@ -3,26 +3,25 @@
   <children >
     <ContentNode title = "" >
       <ContentNode 
-        HDPosterUrl = "http://192.168.43.99:8080/4.png" 
+        HDPosterUrl = "http://192.168.43.99:8080/images/4.png" 
         description = "AppliancesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://192.168.43.99:8080/3.png" 
+        HDPosterUrl = "http://192.168.43.99:8080/images/3.png" 
         description = "ToolsAndHardwareSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://192.168.43.99:8080/7.png" 
+        HDPosterUrl = "http://192.168.43.99:8080/images/7.png" 
         description = "ClothesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://192.168.43.99:8080/5.png"
+        HDPosterUrl = "http://192.168.43.99:8080/images/5.png"
         description = "ToysSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://192.168.43.99:8080/6.png" 
+        HDPosterUrl = "http://192.168.43.99:8080/images/6.png" 
         description = "GamesSelectContent" />
       <ContentNode 
-        HDPosterUrl = "http://192.168.43.99:8080/9.png" 
-        font.color="#ffffff"
+        HDPosterUrl = "http://192.168.43.99:8080/images/9.png" 
         description = "ElectronicsSelectContent" />
       <ContentNode
-        HDPosterUrl = "http://192.168.43.99:8080/8.png"
+        HDPosterUrl = "http://192.168.43.99:8080/images/8.png"
         description = "AccessoriesSelectContent" />
     </ContentNode>
   </children>
