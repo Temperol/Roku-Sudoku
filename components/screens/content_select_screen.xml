@@ -15,7 +15,7 @@
     <PosterGrid
       id="ContentPosterGrid"
       translation="[130, 160]"
-      basePosterSize="[512 ,288]"
+      basePosterSize="[512 ,288]"  
       itemSpacing="[20,20]"
       caption1NumLines="1"
       numColumns="3"
@@ -33,4 +33,4 @@
       </ContentNode>
     </PosterGrid>
   </children>
-</component>
+</component>  
